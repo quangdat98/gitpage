@@ -6,12 +6,18 @@
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
+<style>
+    body {
+  background-image: url('1702310836964.JPEG');
+}
+
+</style>
 <body>
     <div style="text-align: center;">
-        <h1>Chào Thư gà</h1>
-        <p>Ấn vào đây nè</p>
-        <button id="helloButton">hihi</button>
-        <div id="output"></div>
+        <h1 style="color: aliceblue">Chào Thư gà</h1>
+        <h1 style="color: chartreuse;">Ấn vào đây nè</h1>
+        <button id="helloButton">Đạt Thật tuyệt vời còn Thư thì.. haizzz </button>
+        <div id="output" style="background-color: aquamarine;width: 200px;margin-left: 45%;"></div>
     </div>
 
     <script>
@@ -26,7 +32,7 @@
                         outputDiv.append(text + "<br>");
                         setTimeout(function() {
                             printHello(index + 1);
-                        }, 100); // Khoảng thời gian giữa mỗi lần in (trong milliseconds)
+                        }, 300); // Khoảng thời gian giữa mỗi lần in (trong milliseconds)
                     }
                 }
 
